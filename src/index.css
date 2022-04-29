@@ -3,7 +3,8 @@
 .main {
   background-color: rgb(135, 220, 235);
   min-height: 100vh;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
