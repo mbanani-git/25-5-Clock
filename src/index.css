@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300;1,500&display=swap");
+
+.main {
+  background-color: rgb(135, 220, 235);
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  background-color: #f0f2f5;
+}
+
+.app {
+  height: fit-content;
+  /* max-width: 350px; */
+  background-color: #ececf1;
+  margin: 0 1rem;
+}
+
+/* @media only screen and (max-width: 320px) {
+  .app {
+    width: 300px;
+  }
+} */
+
+.app-display {
+  min-height: 280px;
+  background: #ff4b1f;
+
+  background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);
+
+  background: linear-gradient(to right,
+      #ff9068,
+      #ff4b1f);
+
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  position: relative;
+}
+
+#display-title {
+  text-align: center;
+  color: white;
+  padding: 2rem 0;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#display-title h2 {
+  text-align: center;
+  font-size: clamp(1.5rem, calc(2rem + 2vw), 2.5rem);
+}
+
+#timer-label,
+#time-left {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.buttons-display {
+  text-align: center;
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.btn {
+  box-shadow: none !important;
+}
+
+.buttons-display .btn {
+  color: #ff4b1f;
+  font-size: 2rem;
+  padding: 0;
+}
+
+.info {
+  font-family: "Poppins", sans-serif;
+  box-shadow: none !important;
+  font-size: 1.5rem !important;
+  color: white !important;
+  opacity: 0.8;
+  padding: 0 !important;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.app-session,
+.app-break {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
+  border-bottom: solid 2px white;
+}
+
+.session-control,
+.break-control {
+  display: flex;
+  flex-direction: row;
+}
+
+.session-control p,
+.break-control p {
+  width: 50px;
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.session-control button,
+.break-control button {
+  font-size: 1.5rem;
+  padding: 0;
+  box-shadow: none !important;
+  color: #ff4b1f;
+}
+
+.app-goal {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 0.5rem;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.todo-item .title {
+  margin: 0;
+  flex-direction: row;
+  display: flex;
+}
+
+.todo-item .title p {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+}
+
+.btn-remove {
+  color: rgb(201, 47, 47) !important;
+  padding: 0;
+  font-size: 1.25rem !important;
+}
+
+.btn-edit {
+  color: rgb(45, 207, 45) !important;
+  padding: 0 !important;
+  font-size: 1.25rem !important;
+}
+
+.title i {
+  font-size: 0.75rem;
+  align-self: center;
+  position: relative;
+}
+
+.signature {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.info i:hover {
+  color: #555555;
+}
+
+.copyright {
+
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 1rem 0;
+  font-family: poppins;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright img {
+  width: 32px;
+  height: 100%;
+  margin: 0 0.5rem;
+}
+
+.copyright img:hover {
+  filter: brightness(1.2);
+}
